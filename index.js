@@ -7,3 +7,5 @@ function MinhaFunc() {
     console.log(numeros[i]);
   }
 }
+
+MinhaFunc();
