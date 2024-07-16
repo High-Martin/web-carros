@@ -1,0 +1,23 @@
+{
+  "name": "web-carros",
+  "version": "1.0.0",
+  "description": "Gerenciador de carros na web.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/High-Martin/web-carros.git"
+  },
+  "keywords": [
+    "carros",
+    "gerenciador"
+  ],
+  "author": "bgmartins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/High-Martin/web-carros/issues"
+  },
+  "homepage": "https://github.com/High-Martin/web-carros#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
