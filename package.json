@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Gerenciador de carros na web.",
   "main": "index.js",
+  "scripts": {
+    "start": "node entry.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/High-Martin/web-carros.git"
@@ -19,5 +22,8 @@
   "homepage": "https://github.com/High-Martin/web-carros#readme",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
   }
 }
