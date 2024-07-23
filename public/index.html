@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <script src="https://cdn.tailwindcss.com"></script>
-        <script src="src/utils.js"></script>
+        <script src="/dist/lib/utils.js"></script>
     </head> 
     <body class="bg-gray-100">
         <nav class="flex items-center w-full py-2 px-4 border-b justify-between border-gray-400">
@@ -29,9 +29,15 @@
                 <span class="font-semibold">
                     Olá, Carl Jhonson
                 </span>
+                <ion-icon name="heart-outline"></ion-icon>
             </div>
-            
         </nav>
+        <input type="text" class="border border-gray-400 px-4 py-2 rounded-lg w-1/2" id="pesquisa-carros" placeholder="Pesquisar..."/>
+        <button class="bg-orange-500 text-white px-4 py-2 rounded-lg" onclick="pesquisaCarros()">
+            <ion-icon name="search-outline"></ion-icon>
+        </button>
 
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
