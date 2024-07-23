@@ -4,6 +4,7 @@
   "description": "Gerenciador de carros na web.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "start": "node entry.js"
   },
   "repository": {
@@ -24,6 +25,14 @@
     "express": "^4.19.2"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.6"
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.11",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^7.17.0"
   }
 }
